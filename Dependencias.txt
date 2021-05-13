@@ -1,0 +1,5 @@
+yarn create next-app dashgo
+yarn add typescript @types/react @types/node -D
+yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+yarn add react-icons
+ yarn add apexcharts react-apexcharts
