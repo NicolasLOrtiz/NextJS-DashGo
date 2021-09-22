@@ -9,6 +9,7 @@ const Chart = dynamic(() => import("react-apexcharts"), {
 });
 
 const options = {
+  // colors: ["#ee0000"],
   chart: {
     toolbar: {
       show: false,
