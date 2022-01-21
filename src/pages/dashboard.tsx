@@ -71,14 +71,14 @@ export default function Dashboard() {
             <Text fontSize="lg" mb="4">
               Inscritos da Semana
             </Text>
-            <Chart options={options} series={series} type="area" height={160} />
+            <Chart series={series} type="area" height={160} />
           </Box>
 
           <Box p={["6", "8"]} bg="gray.800" borderRadius={8} pb="4">
             <Text fontSize="lg" mb="4">
               Taxa de Abertura
             </Text>
-            <Chart type="area" options={options} series={series} height={160} />
+            <Chart type="area" series={series} height={160} />
           </Box>
         </SimpleGrid>
       </Flex>
